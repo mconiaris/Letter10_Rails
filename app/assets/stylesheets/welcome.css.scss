@@ -4,9 +4,12 @@
 
 $header-color: black;
 
+div.container-fluid {
+  background-color: $header-color;
+}
+
 div.navbar-header {
   height: 5em;
-  background-color: $header-color;
 }
 
 a.navbar-brand {
