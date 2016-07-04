@@ -2,10 +2,11 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+$header-color: black;
 
 div.navbar-header {
   height: 5em;
-  background-color: black;
+  background-color: $header-color;
 }
 
 a.navbar-brand {
