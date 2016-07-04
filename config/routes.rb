@@ -3,9 +3,9 @@ Rails.application.routes.draw do
 
   get 'reel' => 'welcome#reel'
 
-  get 'contact' => 'welcome/contact'
+  get 'contact' => 'welcome#contact'
 
-  get 'index' => 'welcome/index'
+  get 'index' => 'welcome#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
