@@ -35,6 +35,7 @@ div.thumbnail {
 
 div.thumbnail img {
   height: 4em;
+  filter: grayscale(100%);
 }
 
 div.nopadding {
