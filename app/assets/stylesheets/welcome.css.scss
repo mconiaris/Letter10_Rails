@@ -34,11 +34,15 @@ div.thumbnail {
 }
 
 div.thumbnail img {
-  height: 4em;
+  height: 5em;
   filter: grayscale(100%);
 }
 
 div.nopadding {
    padding: 0 !important;
    margin: 0 !important;
+}
+
+div#logos {
+  margin: auto;
 }
