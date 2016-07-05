@@ -25,6 +25,19 @@ button.navbar-toggle.collapsed {
   background-color: floralwhite;
 }
 
+div.thumbnail {
+  margin-bottom: 0px;
+  border-radius: 0px;
+  border: 1px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
 div.thumbnail img {
-  height: 3em;
+  height: 4em;
+}
+
+div.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
 }
