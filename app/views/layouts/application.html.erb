@@ -39,16 +39,34 @@
 
   <footer>
     <section>
-      <ul class="logos">
-        <li id="diy"><%= image_tag("DIY.jpg") %></li>
-        <li id="hgtv"><%= image_tag("hgtv.jpg") %></li>
-        <li id="history"><%= image_tag("history_channel-logo.jpg") %></li>
-        <li id="lifetime"><%= image_tag("Lifetime.jpeg") %></li>
-        <li id="oxygen"><%= image_tag("Oxygen.jpeg") %></li>
-        <li id="science-channel"><%= image_tag("ScienceChannel.jpg") %></li>
-        <li id="smithsonian"><%= image_tag("smithsonian-channel-logo.jpg") %></li>
-        <li id="travel"><%= image_tag("Travellogo.png") %></li>
-      </ul>
+      <div class="row">
+        <div class="col-xs-6 col-md-3">
+          <div class="thumbnail" id="diy">
+            <%= image_tag("DIY.jpg", alt: "DIY Network") %>
+          </div>
+          <div class="thumbnail" id="hdtv">
+            <%= image_tag("hgtv.jpg", alt: "HGTV") %>
+          </div>
+          <div class="thumbnail" id="history">
+            <%= image_tag("history_channel-logo.jpg", alt: "History Channel") %>
+          </div>
+          <div class="thumbnail" id="lifetime">
+            <%= image_tag("Lifetime.jpeg", alt: "Lifetime Channel") %>
+          </div>
+          <div class="thumbnail" id="oxygen">
+            <%= image_tag("Oxygen.jpeg", alt: "Oxygen Network") %>
+          </div>
+          <div class="thumbnail" id="science">
+            <%= image_tag("ScienceChannel.jpg", alt: "Science Channel") %>
+          </div>
+          <div class="thumbnail" id="smithsonian">
+            <%= image_tag("smithsonian-channel-logo.jpg", alt: "Smithsonian Channel") %>
+          </div>
+          <div class="thumbnail" id="smithsonian">
+            <%= image_tag("Travellogo.png", alt: "Travel Channel") %>
+          </div>
+        </div>
+      </div>
       <p>This is the logo section.</p>
     </section>
     <p>This is a footer.</p>
