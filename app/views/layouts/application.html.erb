@@ -11,81 +11,81 @@
 </head>
 <body>
   <div class="container-fluid">
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="/"><%= image_tag("letter10_logo.png")%></a>
-      </div>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/"><%= image_tag("letter10_logo.png")%></a>
+        </div>
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="/">Home<span class="sr-only">(current)</span></a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/reel">Reel</a></li>
-          <li><a href="/contact">Contact</a></li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="/">Home<span class="sr-only">(current)</span></a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/reel">Reel</a></li>
+            <li><a href="/contact">Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
 
-  <%= yield %>
+    <%= yield %>
 
-  <footer>
-    <section>
-      <div class="row" id="logos">
-        <div class="col-xs-1 col-md-1 nopadding">
-          <div class="thumbnail" id="history">
-            <%= image_tag("history_channel-logo.jpg", alt: "History Channel") %>
+    <footer>
+      <section>
+        <div class="row" id="logos">
+          <div class="col-xs-1 col-md-1 nopadding">
+            <div class="thumbnail" id="history">
+              <%= image_tag("history_channel-logo.jpg", alt: "History Channel") %>
+            </div>
+          </div>
+          <div class="col-xs-1 col-md-1 nopadding">
+            <div class="thumbnail" id="diy">
+              <%= image_tag("DIY.jpg", alt: "DIY Network") %>
+            </div>
+          </div>
+          <div class="col-xs-2 col-md-2 nopadding">
+            <div class="thumbnail" id="oxygen">
+              <%= image_tag("Oxygen.jpeg", alt: "Oxygen Network") %>
+            </div>
+          </div>
+          <div class="col-xs-1 col-md-1 nopadding">
+            <div class="thumbnail" id="science">
+              <%= image_tag("ScienceChannel.jpg", alt: "Science Channel") %>
+            </div>
+          </div>
+          <div class="col-xs-2 col-md-2 nopadding">
+            <div class="thumbnail" id="smithsonian">
+              <%= image_tag("smithsonian-channel-logo.jpg", alt: "Smithsonian Channel") %>
+            </div>
+          </div>
+          <div class="col-xs-1 col-md-1 nopadding">
+            <div class="thumbnail" id="hdtv">
+              <%= image_tag("hgtv.jpg", alt: "HGTV") %>
+            </div>
+          </div>
+          <div class="col-xs-1 col-md-1 nopadding">
+            <div class="thumbnail" id="lifetime">
+              <%= image_tag("Lifetime.jpeg", alt: "Lifetime Channel") %>
+            </div>
+          </div>
+          <div class="col-xs-3 col-md-3 nopadding">
+            <div class="thumbnail" id="travel">
+              <%= image_tag("Travellogo.png", alt: "Travel Channel") %>
+            </div>
           </div>
         </div>
-        <div class="col-xs-1 col-md-1 nopadding">
-          <div class="thumbnail" id="diy">
-            <%= image_tag("DIY.jpg", alt: "DIY Network") %>
-          </div>
-        </div>
-        <div class="col-xs-2 col-md-2 nopadding">
-          <div class="thumbnail" id="oxygen">
-            <%= image_tag("Oxygen.jpeg", alt: "Oxygen Network") %>
-          </div>
-        </div>
-        <div class="col-xs-1 col-md-1 nopadding">
-          <div class="thumbnail" id="science">
-            <%= image_tag("ScienceChannel.jpg", alt: "Science Channel") %>
-          </div>
-        </div>
-        <div class="col-xs-2 col-md-2 nopadding">
-          <div class="thumbnail" id="smithsonian">
-            <%= image_tag("smithsonian-channel-logo.jpg", alt: "Smithsonian Channel") %>
-          </div>
-        </div>
-        <div class="col-xs-1 col-md-1 nopadding">
-          <div class="thumbnail" id="hdtv">
-            <%= image_tag("hgtv.jpg", alt: "HGTV") %>
-          </div>
-        </div>
-        <div class="col-xs-1 col-md-1 nopadding">
-          <div class="thumbnail" id="lifetime">
-            <%= image_tag("Lifetime.jpeg", alt: "Lifetime Channel") %>
-          </div>
-        </div>
-        <div class="col-xs-3 col-md-3 nopadding">
-          <div class="thumbnail" id="travel">
-            <%= image_tag("Travellogo.png", alt: "Travel Channel") %>
-          </div>
-        </div>
-      </div>
-      <p>This is the logo section.</p>
-    </section>
-    <p>This is a footer.</p>
-  </footer>
-</div>
+        <p>This is the logo section.</p>
+      </section>
+      <p>This is a footer.</p>
+    </footer>
+  </div>
 </body>
 </html>
