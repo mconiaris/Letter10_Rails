@@ -2,11 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-$header-color: black;
-
-div.container-fluid {
-  background-color: $header-color;
-}
+$outside-color: black;
 
 nav.navbar {
   border: 1px none;
@@ -14,6 +10,7 @@ nav.navbar {
 
 div.navbar-header {
   height: 5em;
+  background-color: $outside-color;
 }
 
 a.navbar-brand {
