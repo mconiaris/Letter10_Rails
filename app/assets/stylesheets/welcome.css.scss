@@ -8,6 +8,10 @@ div.container-fluid {
   background-color: $header-color;
 }
 
+nav.navbar {
+  border: 1px none;
+}
+
 div.navbar-header {
   height: 5em;
 }
