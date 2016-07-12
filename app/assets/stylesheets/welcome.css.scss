@@ -4,6 +4,7 @@
 
 $outside-color: black;
 
+
 body {
   background-color: #ccebff;
 }
@@ -85,4 +86,15 @@ div#iwo-jima.thumbnail {
   background-color: white;
   background-image: none;
   border-color: #0275d8;
+}
+
+
+/*Screen Size*/
+
+@media (min-width: 1170px) {
+  body {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
