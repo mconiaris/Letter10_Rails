@@ -10,8 +10,11 @@ body {
 
 body div.container-fluid {
   background-color: black;
-  background-image: image-url("L10TEXTURE.png")
+  background-image: image-url("L10TEXTURE.png");
+  background-repeat: no-repeat;
+  background-size: 100%
 }
+
 
 nav.navbar {
   border: 1px none;
