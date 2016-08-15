@@ -6,11 +6,11 @@ $outside-color: black;
 
 body {
   color: white;
+  background-image: image-url("L10TEXTURE.png");
 }
 
 body div.container-fluid {
   background-color: black;
-  background-image: image-url("L10TEXTURE.png");
   background-repeat: no-repeat;
   background-size: 75%
 }
