@@ -26,6 +26,10 @@ div.navbar-header {
   background-color: $outside-color;
 }
 
+div#header {
+  border-bottom: solid 3px red;
+}
+
 a.navbar-brand {
   padding: 0;
 }
