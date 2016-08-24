@@ -56,6 +56,11 @@ div.thumbnail {
   padding: 0px;
 }
 
+div.thumbnail img {
+  height: 2.6em;
+  max-width: none;
+}
+
 div.nopadding {
    padding: 0 !important;
    margin: 0 !important;
