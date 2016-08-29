@@ -9,6 +9,8 @@ gem 'pg', '~> 0.15'
 # gem 'sass-rails', '~> 5.0'
 # Boostrap for styling
 gem 'bootstrap-sass', '~> 3.2.0'
+# Font Awesome for Social Media Buttons
+gem 'font-awesome-sass'
 # Adds the proper vendor prefixes to CSS code.
 gem 'autoprefixer-rails'
 # Use Uglifier as compressor for JavaScript assets
