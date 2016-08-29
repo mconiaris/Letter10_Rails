@@ -139,6 +139,11 @@ div#learn {
 
 
 /*Reel Page*/
+section#about p{
+  font-size: 1em;
+}
+
+/*Reel Page*/
 div.bio-photo img {
   height: 10em;
 }
@@ -154,6 +159,10 @@ section#reel {
 
 section#contact {
   text-align: center;
+}
+
+section#contact a {
+  color: white;
 }
 
 /*Screen Size*/
