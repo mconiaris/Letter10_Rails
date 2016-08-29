@@ -9,6 +9,8 @@ gem 'pg', '~> 0.15'
 gem 'sass-rails', '~> 5.0'
 # Boostrap for styling
 gem 'bootstrap-sass', '~> 3.2.0'
+# Social Buttons
+gem 'bootstrap-social-rails'
 # Font Awesome for Social Media Buttons
 gem 'font-awesome-sass'
 # Adds the proper vendor prefixes to CSS code.
