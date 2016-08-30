@@ -184,3 +184,29 @@ section#contact a {
     margin-right: auto;
   }
 }
+
+@media (max-width: 400px) {
+  body {
+    font-size: 1em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  h4 {
+    font-size: 1.2em;
+  }
+
+  h5 {
+    font-size: 1em;
+  }
+
+  div#learn {
+    line-height: 1em;
+  }
+
+  div#learn .btn {
+    font-size: 1em;
+  }
+}
