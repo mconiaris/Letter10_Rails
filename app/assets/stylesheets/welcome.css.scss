@@ -35,6 +35,10 @@ div#header {
   border-bottom: solid 3px $outside-color;
 }
 
+div#header.container-fluid {
+  padding-right: 0px;
+}
+
 a.navbar-brand {
   padding: 0;
 }
