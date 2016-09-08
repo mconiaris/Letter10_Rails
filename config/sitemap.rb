@@ -24,4 +24,11 @@ SitemapGenerator::Sitemap.create do
   #   Article.find_each do |article|
   #     add article_path(article), :lastmod => article.updated_at
   #   end
+
+  SitemapGenerator::Sitemap.default_host = "http://letter10productions.com/"
+  SitemapGenerator::Sitemap.create do
+    add '/about'
+    add '/reel'
+    add '/contact'
+  end
 end
